@@ -16,7 +16,7 @@ function skipBack(){
 
 function play(){
     if (audio.paused) {
-           plays.src = "/stop.svg";
+           plays.src = "stop.svg";
         audio.play();
         } else {
             plays.src = "play-circle.svg";
