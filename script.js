@@ -35,8 +35,3 @@ function skipForward(){
 function increase(){
     audio.playbackRate += 0.25;
 }
-
-function vol(){
-    audio.volume = 0.2;
-}
-
