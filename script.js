@@ -7,29 +7,29 @@ function decrease(){
 }
 
 function skipBack(){
-    plays.src = "./Media/stop.svg";
+    plays.src = "stop.svg";
     var text = document.getElementById("text");
    text.innerText = "Tutorial de como fazer um podcast.";
    podcast.currentTime = 0;
-   audio.play( audio.src = "./Media/como-fazer-um-podcast.mp3");
+   audio.play( audio.src = "como-fazer-um-podcast.mp3");
 }
 
 function play(){
     if (audio.paused) {
-           plays.src = "./Media/stop.svg";
+           plays.src = "/stop.svg";
         audio.play();
         } else {
-            plays.src = "./Media/play-circle.svg";
+            plays.src = "play-circle.svg";
         audio.pause();
         }
 }
 
 function skipForward(){
-    plays.src = "./Media/stop.svg";
+    plays.src = "stop.svg";
    var skipForward = document.getElementById("skipForward");
    var text = document.getElementById("text");
    text.innerText = "Hábitos para aumentar a produtividade.";
-   audio.play( audio.src = "./Media/habitos.mp3");
+   audio.play( audio.src = "habitos.mp3");
 }   
 
 function increase(){
